@@ -1,0 +1,22 @@
+Notes on the SafeSpace Program
+------------------------------------
+
+To run the program, run "GUI.java" and it will display the interface.
+
+When running the program, select 5 universities and their campuses, and five crimes, then press enter. After that, a button on the 
+bottom right will show up that will say "Show More", which will do as it says. After clicking "Show More", another button will 
+appear in its place that says "Compare Similar Size", which can also be clicked to compare to institutions of similar size.
+
+Sometimes when a university is selected, the corresponding campus dropdown won't display any campuses. This error happens very infrequently
+and is entirely random (I believe it happens when you select a university too quickly or something), and if that happens, the program can 
+be restarted and re-run.
+
+Five universities must be selected, cannot be less. Leaving an option blank will skew results.
+
+VERY IMPORTANT: A lot of the institutions in the data set have a very little population and therefore zero crimes. Many "no name" 
+universities were included in this data set, so when choosing five universities at random to test, there is a high chance one or several
+of them will have a 'Safety Rank' of zero, because there are zero crimes at that university. Therefore a lot of the time when doing random
+testing, it will display the safest university and it will have a 'Safety Rank' of zero in the output text area. If it has a ranking of zero,
+when it compares to universities of similar size, it will display as Very Safe (because there are literally 0 crimes there).
+
+Lastly, just to reiterate: Lower 'Safety Rank' == very safe university, Higher 'Safety Rank' == dangerous university.

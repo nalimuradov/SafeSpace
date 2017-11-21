@@ -1,0 +1,9 @@
+SFWR ENG 2XB3
+
+400024003		Nariman Alimuradov		Design Lead
+400033291		Rafeh Hussain			Testing Lead
+400023810		Prince Kowser			Team Leader
+001426682		Moizur Qazi				Log Manager
+400038361		Teodor Tomescu			Researcher
+
+-- April 12, 2017 -- "Group 23 attests to the fact that the work being submitted is our own group work."
